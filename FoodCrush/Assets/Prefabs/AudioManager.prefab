@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2679705088872251494
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2679705088872251488}
+  - component: {fileID: 2679705088872251495}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2679705088872251488
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2679705088872251494}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2679705088872251495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2679705088872251494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da42e4c65b362a24486d6e7aacc8efe8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Select
+    clip: {fileID: 8300000, guid: 63d534246e4bc0c418c8b025f4da54c1, type: 3}
+    volume: 0.8
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Swap
+    clip: {fileID: 8300000, guid: d4d88d51b714fbf40a37e21dc039c193, type: 3}
+    volume: 0.8
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Clear
+    clip: {fileID: 8300000, guid: 757979d2ab6e1e7428856b0f15a2b9fb, type: 3}
+    volume: 0.8
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: BGMusic
+    clip: {fileID: 8300000, guid: 059cd18e5601f884388795d5294ad859, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}

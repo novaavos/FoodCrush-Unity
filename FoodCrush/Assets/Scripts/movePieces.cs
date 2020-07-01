@@ -63,6 +63,10 @@ public class movePieces : MonoBehaviour
         {
             return;
         }
+        Debug.Log("Pego");
+
+        FindObjectOfType<AudioManager>().Play("Select"); //Audio Queue
+
         moving = piece;
         mouseStart = Input.mousePosition;
     }
@@ -74,6 +78,9 @@ public class movePieces : MonoBehaviour
             return;
         }
         Debug.Log("Dropado");
+
+        FindObjectOfType<AudioManager>().Play("Swap"); //Audio Queue
+
         if (!newIndex.Equals(moving.index))
         {
             game.flipPieces(moving.index, newIndex, true);
