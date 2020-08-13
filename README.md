@@ -9,3 +9,7 @@ new gems that will be automaticly generated on top.
 It was made in C# using Unity
 and the idea, rules and the art resources was provided by this link:  https://github.com/PlayKids/match3-test/blob/master/README.md
 
+![](Screenshot_1.png)
+
+![](Screenshot_2.png)
+
